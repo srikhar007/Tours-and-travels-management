@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours And Travels Management</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- header part starts here -->
+    <header>
+
+        <a href="" class="logo"><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">Book</a>
+            <a href="">Packages</a>
+            <a href="">Services</a>
+            <a href="">Gallery</a>
+            <a href="">Review
+            <a href="">Contact</a>
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+    </header> 
+    <!-- header part ends here -->
+
+
+    <!-- login details -->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form>
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter Your Email">
+            <input type="password" class="box" placeholder="Enter Your Password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>forgot password? <a href="">Click here</a></p>
+            <p>Dont have account? <a href="">Register now</a></p>
+        </form>
+
+    </div>
+    <!-- login page details end -->
+
+    <!-- home section starts -->
+    <section class="home">
+
+        <div class="content">
+            <h3>Discover Amazing places with us!</h3>
+            <p>Discover new places all over the world with us!!  Adventure awaits..</p>
+            <a href="" class="btn">Discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="./videos/3571264-uhd_3840_2160_30fps.mp4"></span>
+            <span class="vid-btn" data-src="./images/2.mp4"></span>
+            <span class="vid-btn" data-src="./images/3.mp4"></span>
+            <span class="vid-btn" data-src="./images/4.mp4"></span>
+            <span class="vid-btn" data-src="./images/5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="./videos/3571264-uhd_3840_2160_30fps.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+     <!-- home section starts -->
+
+
+     <!-- booking system starts -->
+        <section class="book" id="book">
+
+            <h1 class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+
+            <div class="row">
+
+                <div class="image">
+                        <img src="./images/tourist.jpg"/>
+                </div>
+
+                <form action="">
+
+                    <div class="input-box">
+                        <h3>Where you want to go</h3>
+                        <input type="text" placeholder="place name..">
+                    </div>
+
+                    <div class="input-box">
+                        <h3>How many people</h3>
+                        <input type="number" placeholder="enter the people..">
+                    </div>
+
+                    <div class="input-box">
+                        <h3>Arrival</h3>
+                        <input type="date">
+                    </div>
+
+                    <div class="input-box">
+                        <h3>Return</h3>
+                        <input type="date">
+                    </div>
+                    
+                    <input type="submit" class="btn" value="book now">
+
+                </form>
+
+            </div>
+
+        </section>
+     <!-- booking system ends -->
+
+
+    <!-- package section starts -->
+        <section class="packages" id="packages">
+
+            <h1 class="heading">
+                <span>p</span>
+                <span>a</span>
+                <span>c</span>
+                <span>k</span>
+                <span>a</span>
+                <span>g</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="./images/mumbai.jpg"/>
+                    <div class="content">
+                        <h3 class="h3"><i class="fas fa-map-marker-alt"></i>Mumbai</h3>
+                        <p>There are so many exciting places all over the world book your tickets and explore more</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">90.00 <span>$120.00</span></div>
+                        <a class="btn">Book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/japan.jpeg"/>
+                    <div class="content">
+                        <h3 class="h3"> <i class="fas fa-map-marker-alt"></i> Japan </h3>
+                        <p>There are so many exciting places all over the world book your tickets and explore more</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">90.00 <span>$120.00</span></div>
+                        <a class="btn">Book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/korea.jpg"/>
+                    <div class="content">
+                        <h3 class="h3"> <i class="fas fa-map-marker-alt"></i> Korea </h3>
+                        <p>There are so many exciting places all over the world book your tickets and explore more</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">90.00 <span>$120.00</span></div>
+                        <a class="btn">Book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/paris.jpg"/>
+                    <div class="content">
+                        <h3 class="h3"> <i class="fas fa-map-marker-alt"></i> Paris </h3>
+                        <p>There are so many exciting places all over the world book your tickets and explore more</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">90.00 <span>$120.00</span></div>
+                        <a class="btn">Book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/london.jpg"/>
+                    <div class="content">
+                        <h3 class="h3"> <i class="fas fa-map-marker-alt"></i> London </h3>
+                        <p>There are so many exciting places all over the world book your tickets and explore more</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">90.00 <span>$120.00</span></div>
+                        <a class="btn">Book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/us.jpg"/>
+                    <div class="content">
+                        <h3 class="h3"> <i class="fas fa-map-marker-alt"></i> Unites States </h3>
+                        <p>There are so many exciting places all over the world book your tickets and explore more</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price">90.00 <span>$120.00</span></div>
+                       <a class="btn">Book now</a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+    <!-- package section ends here -->
+
+    <!-- services page starts here -->
+
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotels</h3>
+                <p>There are plenty of hotels in friendly range and all people can afford it.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food and drinks</h3>
+                <p>There are plenty of foods and drinks in friendly range and all people can afford it.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safty guidelines</h3>
+                <p>There are plenty of foods and drinks in friendly range and all people can afford it.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Around the World</h3>
+                <p>There are plenty of foods and drinks in friendly range and all people can afford it.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest travel</h3>
+                <p>There are plenty of foods and drinks in friendly range and all people can afford it.</p>
+            </div>
+
+            
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventures</h3>
+                <p>There are plenty of foods and drinks in friendly range and all people can afford it.</p>
+            </div>
+
+        </div>
+    </section>
+
+     <!-- services page ends here -->
+
+
+     <!-- gallery section starts -->
+      <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./images/t1.jpg">
+                <div class="content">
+                    <h3>Amazing place</h3>
+                    <p>Best places all over the world.</p>
+                    <a href="" class="btn">View</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/t2.jpg">
+                <div class="content">
+                    <h3>Amazing place</h3>
+                    <p>Best places all over the world.</p>
+                    <a href="" class="btn">View</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/t3.jpg">
+                <div class="content">
+                    <h3>Amazing place</h3>
+                    <p>Best places all over the world.</p>
+                    <a href="" class="btn">View</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/t4.jpg">
+                <div class="content">
+                    <h3>Amazing place</h3>
+                    <p>Best places all over the world.</p>
+                    <a href="" class="btn">View</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/t5.jpg">
+                <div class="content">
+                    <h3>Amazing place</h3>
+                    <p>Best places all over the world.</p>
+                    <a href="" class="btn">View</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/t6.jpg">
+                <div class="content">
+                    <h3>Amazing place</h3>
+                    <p>Best places all over the world.</p>
+                    <a href="" class="btn">View</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/t7.jpg">
+                <div class="content">
+                    <h3>Amazing place</h3>
+                    <p>Best places all over the world.</p>
+                    <a href="" class="btn">View</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/t8.jpg">
+                <div class="content">
+                    <h3>Amazing place</h3>
+                    <p>Best places all over the world.</p>
+                    <a href="" class="btn">View</a>
+                </div>
+            </div>
+
+        </div>
+      </section>
+     <!-- gallery section ends -->
+
+
+     <!-- review section starts -->
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>R</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="review-slider">
+            <div class="wrapper">
+
+                <div class="slider">
+                    <div class="box">
+                        <img src="./images/r1.png"/>
+                        <h3>srikhar</h3>
+                        <p>the travel was soo good that i cant forgot in my life and it is so relaxing.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider">
+                    <div class="box">
+                        <img src="./images/r2.jpg"/>
+                        <h3>Jack</h3>
+                        <p>the travel was soo good that i cant forgot in my life and it is so relaxing.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider">
+                    <div class="box">
+                        <img src="./images/r3.jpg"/>
+                        <h3>Hari</h3>
+                        <p>the travel was soo good that i cant forgot in my life and it is so relaxing.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider">
+                    <div class="box">
+                        <img src="./images/r4.jpg"/>
+                        <h3>Tom</h3>
+                        <p>the travel was soo good that i cant forgot in my life and it is so relaxing.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider">
+                    <div class="box">
+                        <img src="./images/r5.jpeg"/>
+                        <h3>Lucy</h3>
+                        <p>the travel was soo good that i cant forgot in my life and it is so relaxing.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider">
+                    <div class="box">
+                        <img src="./images/r6.png"/>
+                        <h3>Erza</h3>
+                        <p>the travel was soo good that i cant forgot in my life and it is so relaxing.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+      <!-- review section section ends -->
+
+
+    <!-- contact details starts -->
+     <section class="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+         <div class="row">
+
+            <div class="image">
+                <img src="./images/contact me.jpg"/>
+            </div>
+            <form action="">
+                <div class="input-box">
+                    <input type="text" placeholder="Name"/>
+                    <input type="email" placeholder="Email"/>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Number"/>
+                    <input type="text" placeholder="subject"/>
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+         </div>
+     </section>
+    <!-- contact details ends -->
+
+
+<footer>Created by @Srikhar</footer>
+
+</body>
+
+<script src="./index.js"></script>
+</html>
